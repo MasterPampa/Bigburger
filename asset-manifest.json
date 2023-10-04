@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Big-burger/static/css/main.cd343374.css",
+    "main.js": "/Big-burger/static/js/main.a8ecba22.js",
+    "static/js/787.ddb0486c.chunk.js": "/Big-burger/static/js/787.ddb0486c.chunk.js",
+    "static/media/logo.png": "/Big-burger/static/media/logo.031fe3d16a81a6b86bec.png",
+    "index.html": "/Big-burger/index.html",
+    "main.cd343374.css.map": "/Big-burger/static/css/main.cd343374.css.map",
+    "main.a8ecba22.js.map": "/Big-burger/static/js/main.a8ecba22.js.map",
+    "787.ddb0486c.chunk.js.map": "/Big-burger/static/js/787.ddb0486c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd343374.css",
+    "static/js/main.a8ecba22.js"
+  ]
+}
