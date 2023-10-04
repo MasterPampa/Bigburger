@@ -1,0 +1,64 @@
+header{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    .title{
+        width: 35%;
+        height: 100%;
+        min-height: 60px;
+        border-radius: 35px 35px 0 0;
+
+        display: flex;
+        align-items: center;
+        transform: translateY(-5px);
+        h1{
+            font-size: 50px;
+            font-weight: 700;
+            color: #F9800D;
+            }
+        .logo{
+            transform: translateY(5px);
+            width: 150px;
+        }
+}
+nav{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .admin{
+        width: 55%;
+        height: 75%;
+        background-color: #212120;
+        border-radius: 50px;
+
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &__button{
+            position: absolute;
+            background-color: #F9800D;
+            width: 40px;
+            height: 60%;
+            border-radius: 100%;
+            top: 15px;
+            left: 15px;
+            cursor: pointer;
+        }
+        p{
+            color: #F9800D;
+            text-align: center;
+            margin:0;
+            font-size: 20px;
+        }
+    }
+    .profile{
+        width: 40%;
+        height: 100%;
+        background-color: green;
+    }
+}
+}
