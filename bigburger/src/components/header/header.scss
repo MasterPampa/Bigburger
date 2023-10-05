@@ -12,8 +12,10 @@ header{
         display: flex;
         align-items: center;
         transform: translateY(-5px);
+        cursor: pointer;
+
         h1{
-            font-size: 50px;
+            font-size: 2.5rem;
             font-weight: 700;
             color: #F9800D;
             }
@@ -22,43 +24,110 @@ header{
             width: 150px;
         }
 }
-nav{
-    width: 35%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    .admin{
-        width: 55%;
-        height: 75%;
-        background-color: #212120;
-        border-radius: 50px;
+    nav{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        .admin{
+            min-width: 350px;
+            height: 75%;
+            background-color: #212120;
+            border-radius: 50px;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: all 0.5s ease-in-out;
+            box-shadow: 1px 1px 5px black inset;
+            &__button{
+                position: absolute;
+                background-color: #F9800D;
+                width: 40px;
+                height: 60%;
+                border-radius: 100%;
+                top: 15px;
+                transform: translateX(-350%);
+                right: initial;
+                cursor: pointer;
+                transition: all 0.5s ease-in-out;
+            }
+            p{
+                color: #F9800D;
+                text-align: center;
+                margin:0;
+                font-size: 1.5rem;
+                cursor: default;
+            }
+        }
+        
+    }
+}
 
-        position: relative;
+header nav .connected{
+    background-color: white;
+    p{
+        color: #212120;
+    }
+}
+header nav .switch{
+    transform: translateX(350%);
+    background-color: #212120;
+    
+}
+
+header{
+    nav{
+        .profile{
+        width: 30%;
+        height: 100%;
+        margin-right: 30px;
         display: flex;
         justify-content: center;
         align-items: center;
+        &__intro{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            margin-right: 10px;
+            h4,p{
+                margin: 0;
+                color: grey;
+            }
+            h4{
+                font-size: 1.2rem;
+                .username{
+                    color: #F9800D;
+                }
+                cursor: default;
+            }
+            p{
+                font-size: 0.9rem;
+                font-weight: 700;
+                cursor: pointer;
+                transition: all 0.3s ease-in-out;
+                &:hover{
+                    color: black
+                }
+            };
+        }
         &__button{
-            position: absolute;
-            background-color: #F9800D;
-            width: 40px;
-            height: 60%;
-            border-radius: 100%;
-            top: 15px;
-            left: 15px;
+            width: 50%;
             cursor: pointer;
+            i{
+                font-size: 3.5em;
+                color: grey;
+                transition: all 0.3s ease-in-out;
+
+            }
+            &:hover{
+                i{
+                    color: black;
+                }
+            }
         }
-        p{
-            color: #F9800D;
-            text-align: center;
-            margin:0;
-            font-size: 20px;
         }
     }
-    .profile{
-        width: 40%;
-        height: 100%;
-        background-color: green;
-    }
-}
 }
