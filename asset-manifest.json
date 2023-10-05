@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Bigburger/static/css/main.cd343374.css",
-    "main.js": "/Bigburger/static/js/main.94317ba9.js",
+    "main.css": "/Bigburger/static/css/main.61fa27f2.css",
+    "main.js": "/Bigburger/static/js/main.ea8764c2.js",
     "static/js/787.ddb0486c.chunk.js": "/Bigburger/static/js/787.ddb0486c.chunk.js",
     "static/media/logo.png": "/Bigburger/static/media/logo.031fe3d16a81a6b86bec.png",
     "index.html": "/Bigburger/index.html",
-    "main.cd343374.css.map": "/Bigburger/static/css/main.cd343374.css.map",
-    "main.94317ba9.js.map": "/Bigburger/static/js/main.94317ba9.js.map",
+    "main.61fa27f2.css.map": "/Bigburger/static/css/main.61fa27f2.css.map",
+    "main.ea8764c2.js.map": "/Bigburger/static/js/main.ea8764c2.js.map",
     "787.ddb0486c.chunk.js.map": "/Bigburger/static/js/787.ddb0486c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd343374.css",
-    "static/js/main.94317ba9.js"
+    "static/css/main.61fa27f2.css",
+    "static/js/main.ea8764c2.js"
   ]
 }
