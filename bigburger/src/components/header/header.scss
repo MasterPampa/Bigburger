@@ -42,7 +42,7 @@ header{
             justify-content: center;
             align-items: center;
             transition: all 0.5s ease-in-out;
-            box-shadow: 1px 1px 5px black inset;
+            border: 2px solid #212120;
             &__button{
                 position: absolute;
                 background-color: #F9800D;
@@ -69,13 +69,13 @@ header{
 
 header nav .connected{
     background-color: white;
+    border: 2px solid #F9800D;
     p{
         color: #212120;
     }
 }
 header nav .switch{
     transform: translateX(350%);
-    background-color: #212120;
     
 }
 

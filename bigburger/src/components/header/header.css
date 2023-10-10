@@ -41,7 +41,7 @@ header nav .admin {
   justify-content: center;
   align-items: center;
   transition: all 0.5s ease-in-out;
-  box-shadow: 1px 1px 5px black inset;
+  border: 2px solid #212120;
 }
 header nav .admin__button {
   position: absolute;
@@ -65,6 +65,7 @@ header nav .admin p {
 
 header nav .connected {
   background-color: white;
+  border: 2px solid #F9800D;
 }
 header nav .connected p {
   color: #212120;
@@ -72,7 +73,6 @@ header nav .connected p {
 
 header nav .switch {
   transform: translateX(350%);
-  background-color: #212120;
 }
 
 header nav .profile {
