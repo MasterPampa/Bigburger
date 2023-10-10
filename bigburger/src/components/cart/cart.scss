@@ -4,7 +4,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
     &__total{
         background-color: #212120;
         height: 10%;
@@ -15,7 +14,6 @@
             text-align: center;
         }
     }
-    
     &__cards{
         height: 80%;
         width: 100%;
@@ -24,6 +22,7 @@
         flex-direction: column;
         align-items: center;
         overflow-y: scroll;
+        background-color: rgba(240,240,240);
         &::-webkit-scrollbar {
             display: none;
         }
@@ -32,12 +31,12 @@
             min-height: 80px;
             border-radius: 5px;
             margin-top: 20px;
-            background-color: rgba(240,240,240);
+            background-color: white;
             box-shadow: 0px 5px 5px rgba(128,128,128,0.7);
             transition: all 0.1s ease-in-out;
-        &:hover{
-            transform: scale(95%);
-        }
+            &:hover{
+                transform: translateX(5%);
+            }
         }
     }
     &__footer{

@@ -16,7 +16,7 @@ header .title {
 header .title h1 {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #F9800D;
+  color: #FFA752;
   cursor: pointer;
 }
 header .title .logo {
@@ -25,7 +25,7 @@ header .title .logo {
   cursor: pointer;
 }
 header nav {
-  width: 50%;
+  width: 40%;
   height: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -40,12 +40,12 @@ header nav .admin {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
   border: 2px solid #212120;
 }
 header nav .admin__button {
   position: absolute;
-  background-color: #F9800D;
+  background-color: #FFA752;
   width: 40px;
   height: 60%;
   border-radius: 100%;
@@ -53,10 +53,10 @@ header nav .admin__button {
   transform: translateX(-350%);
   right: initial;
   cursor: pointer;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 header nav .admin p {
-  color: #F9800D;
+  color: #FFA752;
   text-align: center;
   margin: 0;
   font-size: 1.5rem;
@@ -65,7 +65,7 @@ header nav .admin p {
 
 header nav .connected {
   background-color: white;
-  border: 2px solid #F9800D;
+  border: 2px solid #FFA752;
 }
 header nav .connected p {
   color: #212120;
@@ -76,11 +76,10 @@ header nav .switch {
 }
 
 header nav .profile {
-  width: 30%;
+  width: 40%;
   height: 100%;
-  margin-right: 30px;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 header nav .profile__intro {
@@ -99,7 +98,7 @@ header nav .profile__intro h4 {
   cursor: default;
 }
 header nav .profile__intro h4 .username {
-  color: #F9800D;
+  color: #FFA752;
 }
 header nav .profile__intro p {
   font-size: 0.9rem;

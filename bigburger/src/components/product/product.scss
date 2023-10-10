@@ -6,6 +6,8 @@
     box-shadow: inset 0px 0px 15px rgba(0,0,0,0.5);
     display: flex;
     justify-content: center;
+    background-color: rgba(240,240,240);
+
     &__cards{
         width: 100%;
         margin: 35px;
@@ -14,22 +16,31 @@
         display: grid;
         grid-template-columns: repeat(auto-fill,250px);
         grid-auto-rows: 300px;
-        overflow-y: scroll;
         grid-gap: 45px;
         &::-webkit-scrollbar {
             display: none;
         }
         &__card{
+            position: relative;
             width: 100%;
             height: 100%;
             border-radius: 15px;
-            box-shadow: 0px 5px 5px rgba(128,128,128,0.7);
+            background-color: white;
+            box-shadow: -5px 5px 15px rgba(128,128,128,0.7);
             transition: all 0.1s ease-in-out;
-            background-color: rgba(240,240,240);
-        &:hover{
-            transform: scale(95%);
-            background-color: #F9800D;
-        }
+            &:hover{
+                transform: scale(97%);
+            }
+            .close{
+                i{
+                    color: #FFA752;
+                }
+                position: absolute;
+                top: 5%;
+                right: 5%;
+                cursor: pointer;
+                visibility: hidden;
+            }
         }
     }
     .space{
@@ -51,15 +62,48 @@
             width: 90%;
             height: 45%;
             margin-top: 10%;
+            img{
+                width: 100%;
+                height: 100%;
+            }
         }
         &__title{
-            width: 90%;
+            width: 85%;
             height: 20%;
+            font-size: 2.5em;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            color: #212120;
         }
-        &__price{
-            width: 90%;
+        &__details{
+            width: 80%;
             height: 20%;
+            font-size: 1.2em;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-family: Arial, Helvetica, sans-serif;
+
+            .price{
+                color: #FFA752;
+            }
+            .btn{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 45%;
+                height: 70%;
+                background-color: #FFA752;
+                color: white;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: all 0.2s ease-in-out;
+                &:hover{
+                    transform: scale(105%);
+                }                
+            }
         }
     }
-
+    
 }

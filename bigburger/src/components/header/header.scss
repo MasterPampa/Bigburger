@@ -16,7 +16,7 @@ header{
         h1{
             font-size: 2.5rem;
             font-weight: 700;
-            color: #F9800D;
+            color: #FFA752;
             cursor: pointer;
 
             }
@@ -27,7 +27,7 @@ header{
         }
 }
     nav{
-        width: 50%;
+        width: 40%;
         height: 100%;
         display: flex;
         justify-content: space-evenly;
@@ -41,11 +41,11 @@ header{
             display: flex;
             justify-content: center;
             align-items: center;
-            transition: all 0.5s ease-in-out;
+            transition: all 0.3s ease-in-out;
             border: 2px solid #212120;
             &__button{
                 position: absolute;
-                background-color: #F9800D;
+                background-color: #FFA752;
                 width: 40px;
                 height: 60%;
                 border-radius: 100%;
@@ -53,10 +53,10 @@ header{
                 transform: translateX(-350%);
                 right: initial;
                 cursor: pointer;
-                transition: all 0.5s ease-in-out;
+                transition: all 0.3s ease-in-out;
             }
             p{
-                color: #F9800D;
+                color: #FFA752;
                 text-align: center;
                 margin:0;
                 font-size: 1.5rem;
@@ -69,7 +69,7 @@ header{
 
 header nav .connected{
     background-color: white;
-    border: 2px solid #F9800D;
+    border: 2px solid #FFA752;
     p{
         color: #212120;
     }
@@ -82,11 +82,10 @@ header nav .switch{
 header{
     nav{
         .profile{
-        width: 30%;
+        width: 40%;
         height: 100%;
-        margin-right: 30px;
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
         align-items: center;
         &__intro{
             width: 50%;
@@ -101,7 +100,7 @@ header{
             h4{
                 font-size: 1.2rem;
                 .username{
-                    color: #F9800D;
+                    color: #FFA752;
                 }
                 cursor: default;
             }

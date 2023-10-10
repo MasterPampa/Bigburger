@@ -6,6 +6,7 @@
   box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: center;
+  background-color: rgb(240, 240, 240);
 }
 .product__cards {
   width: 100%;
@@ -15,23 +16,32 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, 250px);
   grid-auto-rows: 300px;
-  overflow-y: scroll;
   grid-gap: 45px;
 }
 .product__cards::-webkit-scrollbar {
   display: none;
 }
 .product__cards__card {
+  position: relative;
   width: 100%;
   height: 100%;
   border-radius: 15px;
-  box-shadow: 0px 5px 5px rgba(128, 128, 128, 0.7);
+  background-color: white;
+  box-shadow: -5px 5px 15px rgba(128, 128, 128, 0.7);
   transition: all 0.1s ease-in-out;
-  background-color: rgb(240, 240, 240);
 }
 .product__cards__card:hover {
-  transform: scale(95%);
-  background-color: #F9800D;
+  transform: scale(97%);
+}
+.product__cards__card .close {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  cursor: pointer;
+  visibility: hidden;
+}
+.product__cards__card .close i {
+  color: #FFA752;
 }
 .product .space {
   height: 35px;
@@ -55,11 +65,43 @@
   height: 45%;
   margin-top: 10%;
 }
-.product__content__title {
-  width: 90%;
-  height: 20%;
+.product__content__image img {
+  width: 100%;
+  height: 100%;
 }
-.product__content__price {
-  width: 90%;
+.product__content__title {
+  width: 85%;
   height: 20%;
+  font-size: 2.5em;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  color: #212120;
+}
+.product__content__details {
+  width: 80%;
+  height: 20%;
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.product__content__details .price {
+  color: #FFA752;
+}
+.product__content__details .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  height: 70%;
+  background-color: #FFA752;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.product__content__details .btn:hover {
+  transform: scale(105%);
 }/*# sourceMappingURL=product.css.map */

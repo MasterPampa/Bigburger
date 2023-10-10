@@ -8,7 +8,6 @@ function Header({ isAdmin, toggleAdmin }) {
         <header>
             <div className='title'>
                 <img className='logo' srcSet={Logo}></img>
-                <h1>Big Burger</h1>
             </div>
             <nav>
                 <div className={isAdmin ? 'admin connected' : 'admin'}>
