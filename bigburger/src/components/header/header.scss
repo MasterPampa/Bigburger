@@ -12,16 +12,18 @@ header{
         display: flex;
         align-items: center;
         transform: translateY(-5px);
-        cursor: pointer;
 
         h1{
             font-size: 2.5rem;
             font-weight: 700;
             color: #F9800D;
+            cursor: pointer;
+
             }
         .logo{
             transform: translateY(5px);
             width: 150px;
+            cursor: pointer;
         }
 }
     nav{
@@ -106,8 +108,9 @@ header{
             p{
                 font-size: 0.9rem;
                 font-weight: 700;
-                cursor: pointer;
                 transition: all 0.3s ease-in-out;
+                cursor: pointer;
+
                 &:hover{
                     color: black
                 }

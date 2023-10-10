@@ -12,16 +12,17 @@ header .title {
   display: flex;
   align-items: center;
   transform: translateY(-5px);
-  cursor: pointer;
 }
 header .title h1 {
   font-size: 2.5rem;
   font-weight: 700;
   color: #F9800D;
+  cursor: pointer;
 }
 header .title .logo {
   transform: translateY(5px);
   width: 150px;
+  cursor: pointer;
 }
 header nav {
   width: 50%;
@@ -103,8 +104,8 @@ header nav .profile__intro h4 .username {
 header nav .profile__intro p {
   font-size: 0.9rem;
   font-weight: 700;
-  cursor: pointer;
   transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 header nav .profile__intro p:hover {
   color: black;
