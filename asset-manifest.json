@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/Bigburger/static/css/main.6178420f.css",
-    "main.js": "/Bigburger/static/js/main.dafaa086.js",
+    "main.css": "/Bigburger/static/css/main.a9a4744e.css",
+    "main.js": "/Bigburger/static/js/main.f13c3d77.js",
     "static/js/787.ddb0486c.chunk.js": "/Bigburger/static/js/787.ddb0486c.chunk.js",
     "static/media/burger.png": "/Bigburger/static/media/burger.effd3ea18bdf71d3d14f.png",
+    "static/media/veggie.png": "/Bigburger/static/media/veggie.f0f53297def082ac484f.png",
+    "static/media/beef.png": "/Bigburger/static/media/beef.3a5192b18bb3b6bbdd4b.png",
     "static/media/logo.png": "/Bigburger/static/media/logo.031fe3d16a81a6b86bec.png",
     "index.html": "/Bigburger/index.html",
-    "main.6178420f.css.map": "/Bigburger/static/css/main.6178420f.css.map",
-    "main.dafaa086.js.map": "/Bigburger/static/js/main.dafaa086.js.map",
+    "main.a9a4744e.css.map": "/Bigburger/static/css/main.a9a4744e.css.map",
+    "main.f13c3d77.js.map": "/Bigburger/static/js/main.f13c3d77.js.map",
     "787.ddb0486c.chunk.js.map": "/Bigburger/static/js/787.ddb0486c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6178420f.css",
-    "static/js/main.dafaa086.js"
+    "static/css/main.a9a4744e.css",
+    "static/js/main.f13c3d77.js"
   ]
 }
