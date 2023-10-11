@@ -3,7 +3,7 @@ import Logo from '../../images/logo.png'
 
 
 function Header({ isAdmin, toggleAdmin }) {
-
+   
     return(
         <header>
             <div className='title'>
@@ -19,10 +19,10 @@ function Header({ isAdmin, toggleAdmin }) {
                         <h4>Hey, <span className='username'>$username</span></h4>
                         <p>Se déconnecter</p>
                     </div>
-                    <div className='profile__button'><i class="fa-regular fa-circle-user "></i></div>
+                    <div className='profile__button'><i className="fa-regular fa-circle-user "></i></div>
                 </div>
             </nav>
         </header>
     )
-}
-export default Header
+};
+export default Header;

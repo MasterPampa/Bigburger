@@ -38,10 +38,12 @@
   top: 5%;
   right: 5%;
   cursor: pointer;
-  visibility: hidden;
 }
 .product__cards__card .close i {
   color: #FFA752;
+}
+.product__cards__card .hidden {
+  visibility: hidden;
 }
 .product .space {
   height: 35px;
@@ -72,7 +74,7 @@
 .product__content__title {
   width: 85%;
   height: 20%;
-  font-size: 2.5em;
+  font-size: 2em;
   font-weight: 700;
   display: flex;
   align-items: center;
@@ -101,7 +103,27 @@
   border-radius: 5px;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
+  user-select: none;
 }
 .product__content__details .btn:hover {
   transform: scale(105%);
+}
+
+.erase {
+  animation: Erase 1s forwards;
+}
+
+@keyframes Erase {
+  0% {
+    transform: scale(100%);
+  }
+  20% {
+    transform: scale(105%);
+    filter: grayscale(0.2);
+  }
+  100% {
+    filter: grayscale(1);
+    transform: scale(0%);
+    display: none;
+  }
 }/*# sourceMappingURL=product.css.map */

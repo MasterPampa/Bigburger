@@ -39,6 +39,8 @@
                 top: 5%;
                 right: 5%;
                 cursor: pointer;
+            }
+            .hidden{
                 visibility: hidden;
             }
         }
@@ -70,7 +72,7 @@
         &__title{
             width: 85%;
             height: 20%;
-            font-size: 2.5em;
+            font-size: 2em;
             font-weight: 700;
             display: flex;
             align-items: center;
@@ -99,6 +101,7 @@
                 border-radius: 5px;
                 cursor: pointer;
                 transition: all 0.2s ease-in-out;
+                user-select: none;
                 &:hover{
                     transform: scale(105%);
                 }                
@@ -106,4 +109,21 @@
         }
     }
     
+}
+.erase{
+    animation: Erase 1s forwards;
+}
+@keyframes Erase{
+    0%{
+        transform: scale(100%);
+    }
+    20%{
+        transform: scale(105%);
+        filter: grayscale(0.2);
+    }
+    100%{
+        filter: grayscale(1);
+        transform: scale(0%);
+        display: none;
+    }
 }
