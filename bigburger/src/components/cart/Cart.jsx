@@ -1,13 +1,13 @@
 import './cart.css';
-import { getBasket, getTotalPrice, removeFromBasket } from '../../actions/basket';
+import { getBasket, changeQuantity } from '../../actions/basket';
 import React from 'react';
 import { useState } from 'react';
 
-function Cart({cart, setCart}) {
-    const [total, setTotal] = useState(getTotalPrice());
+function Cart({cart, setCart, getTotalPrice, total, setTotal}) {
 
-    const handleRemoveFromBasket = (product) => {
-        removeFromBasket(product);
+    const handleChangeFromBasket = (product) => {
+        changeQuantity(product);
+        console.log(changeQuantity)
         setCart(getBasket());
         setTotal(getTotalPrice());
     };
@@ -19,7 +19,7 @@ function Cart({cart, setCart}) {
             </div>
             <div className='cart__cards'>
                 {cart.map((basket, index) => (
-                    <article className='cart__cards__card' key={index} onClick={() => handleRemoveFromBasket(basket)}>
+                    <article className='cart__cards__card' key={index} onClick={() => handleChangeFromBasket(basket)}>
                         <div className="selected">
                             <div className="selected__content">
                                 <div className="selected__content__image center">

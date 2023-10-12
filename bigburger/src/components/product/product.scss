@@ -86,7 +86,7 @@
             align-items: center;
             justify-content: space-between;
             font-family: Arial, Helvetica, sans-serif;
-
+            
             .price{
                 color: #FFA752;
             }
@@ -100,11 +100,11 @@
                 color: white;
                 border-radius: 5px;
                 cursor: pointer;
-                transition: all 0.2s ease-in-out;
-                user-select: none;
-                &:hover{
-                    transform: scale(105%);
-                }                
+                transition: all 0.1s ease-in-out;
+                &:active{
+                    transform: scale(80%);
+                }              
+                
             }
         }
     }

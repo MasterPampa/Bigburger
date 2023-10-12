@@ -102,11 +102,10 @@
   color: white;
   border-radius: 5px;
   cursor: pointer;
-  transition: all 0.2s ease-in-out;
-  user-select: none;
+  transition: all 0.1s ease-in-out;
 }
-.product__content__details .btn:hover {
-  transform: scale(105%);
+.product__content__details .btn:active {
+  transform: scale(80%);
 }
 
 .erase {
