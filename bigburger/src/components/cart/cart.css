@@ -118,4 +118,9 @@
   .cart .cart__footer {
     min-height: 50px;
   }
+}
+@media (-webkit-min-device-pixel-ratio: 3) {
+  .cart {
+    display: none;
+  }
 }/*# sourceMappingURL=cart.css.map */

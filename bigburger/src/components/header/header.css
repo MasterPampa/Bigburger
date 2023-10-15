@@ -150,4 +150,9 @@ header nav .profile__button:hover i {
   header nav .profile p {
     font-size: 0.8em;
   }
+}
+@media (max-width: 600px) {
+  header nav .admin {
+    display: none;
+  }
 }/*# sourceMappingURL=header.css.map */
