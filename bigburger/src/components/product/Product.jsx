@@ -2,7 +2,7 @@ import './product.css';
 import data from '../../data/data';
 import React, { useState } from 'react';
 
-function Product({ isAdmin, handleAddToBasket }) {
+function Product({ isAdmin, handleAddToBasket, isCartOpen }) {
   const [erasingStates, setErasingStates] = useState(data.map(() => false));
   
   const toggleErasing = (index) => {
@@ -12,7 +12,7 @@ function Product({ isAdmin, handleAddToBasket }) {
   };
 
   return (
-    <div className="product">
+    <div className={isCartOpen ? 'product contrast' : 'product'}>
       <div className="product__cards">
         {data.map((item, index) => (
           <article className={erasingStates[index] ? 'product__cards__card erase' : 'product__cards__card'} key={index}>

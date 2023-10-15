@@ -3,7 +3,7 @@ import { getBasket, changeQuantity } from '../../actions/basket';
 import React from 'react';
 import { useState } from 'react';
 
-function Cart({cart, setCart, getTotalPrice, total, setTotal}) {
+function Cart({cart, setCart, getTotalPrice, total, setTotal, isCartOpen, toggleMobileCart}) {
 
     const handleChangeFromBasket = (product) => {
         changeQuantity(product);
@@ -13,7 +13,7 @@ function Cart({cart, setCart, getTotalPrice, total, setTotal}) {
     };
 
     return (
-        <div className="cart">
+        <div className={isCartOpen ? 'cart ' : 'cart mobileCartOpen' }>
             <div className='cart__total'>
                 <h2>Total :  {total.toFixed(2)}€</h2>
             </div>
@@ -36,7 +36,9 @@ function Cart({cart, setCart, getTotalPrice, total, setTotal}) {
                 ))}
             </div>
             <div className='cart__footer center'>
-                <h3>Coded with React.Js</h3>
+                    {isCartOpen ?                  
+                       <h2 className="cartButton" onClick={toggleMobileCart}><i class="fa-solid fa-cart-shopping"></i>Panier</h2>
+                        : <h3>Coded with React.Js</h3> }
             </div>
         </div>
     )
