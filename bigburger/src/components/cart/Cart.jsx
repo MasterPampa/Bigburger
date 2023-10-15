@@ -20,6 +20,7 @@ function Cart({cart, setCart, getTotalPrice, total, setTotal}) {
             <div className='cart__cards'>
                 {cart.map((basket, index) => (
                     <article className='cart__cards__card' key={index} onClick={() => handleChangeFromBasket(basket)}>
+                        <i class="fa-solid fa-circle-minus remove fa-xl"></i>
                         <div className="selected">
                             <div className="selected__content">
                                 <div className="selected__content__image center">

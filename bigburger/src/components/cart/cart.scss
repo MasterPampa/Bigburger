@@ -27,6 +27,8 @@
             display: none;
         }
         &__card{
+            position: relative;
+
             width: 90%;
             min-height: 80px;
             border-radius: 5px;
@@ -36,6 +38,9 @@
             transition: all 0.1s ease-in-out;
             &:hover{
                 transform: translateX(5%);
+            }
+            &:hover .remove{
+                opacity: 1;
             }
         }
     }
@@ -89,4 +94,13 @@
     display: flex;
     align-items:center;
     justify-content: center;
+}
+
+.remove{
+    position: absolute;
+    left: -35px;
+    top: 47%;
+    color: red;
+    opacity: 0;
+    transition: all 0.1s ease-in-out;
 }

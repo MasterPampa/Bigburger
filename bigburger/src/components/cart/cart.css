@@ -29,6 +29,7 @@
   display: none;
 }
 .cart__cards__card {
+  position: relative;
   width: 90%;
   min-height: 80px;
   border-radius: 5px;
@@ -39,6 +40,9 @@
 }
 .cart__cards__card:hover {
   transform: translateX(5%);
+}
+.cart__cards__card:hover .remove {
+  opacity: 1;
 }
 .cart__footer {
   height: 10%;
@@ -87,4 +91,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.remove {
+  position: absolute;
+  left: -35px;
+  top: 47%;
+  color: red;
+  opacity: 0;
+  transition: all 0.1s ease-in-out;
 }/*# sourceMappingURL=cart.css.map */
