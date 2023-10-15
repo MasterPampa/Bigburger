@@ -136,6 +136,7 @@ header{
 
 @media (max-width :900px ) {
         header{
+            min-height: 80px;
             nav{
                 width: 75%;
                 justify-content: flex-end;

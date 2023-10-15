@@ -112,4 +112,10 @@
   .cart .cart__cards__card img {
     height: 60%;
   }
+  .cart .cart__total {
+    min-height: 80px;
+  }
+  .cart .cart__footer {
+    min-height: 50px;
+  }
 }/*# sourceMappingURL=cart.css.map */

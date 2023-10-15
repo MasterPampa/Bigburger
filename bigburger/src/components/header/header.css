@@ -123,6 +123,9 @@ header nav .profile__button:hover i {
 }
 
 @media (max-width: 900px) {
+  header {
+    min-height: 80px;
+  }
   header nav {
     width: 75%;
     justify-content: flex-end;
