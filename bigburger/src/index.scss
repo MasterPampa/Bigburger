@@ -5,6 +5,9 @@ html{
 }
 body{
     margin: 0;
+    background: linear-gradient(45deg, #FFCF98 2.25%, #FFA752 2.25%, #FFA752 47.75%, #FFCF98 47.75%, #FFCF98 52.25%, #FFA752 52.25%, #FFA752 97.75%, #FFCF98 97.75%);
+    background-size: 50px 50px;
+    background-position: 50px 50px;
 }
 #root{
     height: 100vh;
@@ -13,9 +16,6 @@ body{
 .container{
     width: 100%;
     height: 100vh;
-    background: linear-gradient(45deg, #FFCF98 2.25%, #FFA752 2.25%, #FFA752 47.75%, #FFCF98 47.75%, #FFCF98 52.25%, #FFA752 52.25%, #FFA752 97.75%, #FFCF98 97.75%);
-    background-size: 50px 50px;
-    background-position: 50px 50px;
     display: flex;
     justify-content: center;
     align-items: center;
