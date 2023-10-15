@@ -146,4 +146,12 @@
   .product .btn {
     font-size: 0.7em;
   }
+}
+@media (max-width: 720px) {
+  .product {
+    border-radius: 0px;
+  }
+  .product__cards {
+    margin: 20px;
+  }
 }/*# sourceMappingURL=product.css.map */

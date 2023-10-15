@@ -35,4 +35,10 @@ body {
   width: 100%;
   border-radius: 0 0 35px 35px;
   display: flex;
+}
+
+@media (max-width: 720px) {
+  main {
+    flex-direction: column-reverse;
+  }
 }/*# sourceMappingURL=index.css.map */

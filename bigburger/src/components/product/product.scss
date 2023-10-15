@@ -150,3 +150,13 @@
         }
     }
 }
+
+@media (max-width :720px ) {
+    
+    .product{
+        border-radius: 0px;
+        &__cards{
+            margin: 20px;
+        }
+    }
+}
