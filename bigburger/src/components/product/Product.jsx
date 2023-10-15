@@ -22,7 +22,7 @@ function Product({ isAdmin, handleAddToBasket }) {
               </div>
               <div className='product__content__title'>{item.title}</div>
               <div className='product__content__details'>
-                <div className="price">{item.price}€ </div>
+                <div className="price">{item.price.toFixed(2)}€ </div>
                 <div className="btn" onClick={() => handleAddToBasket(item)}>Ajouter</div>
               </div>
               <div className={isAdmin ? 'close' : 'close hidden'} onClick={() => toggleErasing(index)}>

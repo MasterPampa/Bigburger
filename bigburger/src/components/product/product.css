@@ -126,4 +126,24 @@
     transform: scale(0%);
     display: none;
   }
+}
+@media (max-width: 900px) {
+  .product {
+    width: 100%;
+    border-radius: 0px 0px 35px 35px;
+  }
+  .product__cards {
+    grid-template-columns: repeat(auto-fill, 150px);
+    grid-auto-rows: 200px;
+    grid-gap: 20px;
+  }
+  .product__cards img {
+    height: 95%;
+  }
+  .product__cards .product__content__title {
+    font-size: 1.3em;
+  }
+  .product .btn {
+    font-size: 0.7em;
+  }
 }/*# sourceMappingURL=product.css.map */

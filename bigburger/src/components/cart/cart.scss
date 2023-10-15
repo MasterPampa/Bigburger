@@ -104,3 +104,16 @@
     opacity: 0;
     transition: all 0.1s ease-in-out;
 }
+
+@media (max-width :900px ) {
+    .cart{
+        width: 50%;
+        .cart__cards__card{
+            height: 50px;
+            img{
+                height: 60%;
+            }
+        }
+    }
+    
+}

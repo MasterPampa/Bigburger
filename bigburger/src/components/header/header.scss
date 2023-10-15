@@ -4,7 +4,7 @@ header{
     display: flex;
     justify-content: space-between;
     .title{
-        width: 35%;
+        width: 15%;
         height: 100%;
         min-height: 60px;
         border-radius: 35px 35px 0 0;
@@ -27,7 +27,6 @@ header{
         }
 }
     nav{
-        width: 40%;
         height: 100%;
         display: flex;
         justify-content: space-evenly;
@@ -49,8 +48,8 @@ header{
                 width: 40px;
                 height: 60%;
                 border-radius: 100%;
-                top: 15px;
-                transform: translateX(-350%);
+                top: 20%;
+                left: 5%;
                 right: initial;
                 cursor: pointer;
                 transition: all 0.3s ease-in-out;
@@ -75,7 +74,7 @@ header nav .connected{
     }
 }
 header nav .switch{
-    transform: translateX(350%);
+    left: 85%;
     
 }
 
@@ -83,6 +82,7 @@ header{
     nav{
         .profile{
         width: 40%;
+        min-width: 300px;
         height: 100%;
         display: flex;
         justify-content: flex-end;
@@ -116,7 +116,7 @@ header{
             };
         }
         &__button{
-            width: 50%;
+            width: 30%;
             cursor: pointer;
             i{
                 font-size: 3.5em;
@@ -132,4 +132,34 @@ header{
         }
         }
     }
+}
+
+@media (max-width :900px ) {
+        header{
+            nav{
+                width: 75%;
+                justify-content: flex-end;
+                .admin{
+                    max-width: 50%;
+                    min-width: 250px;
+                    p{
+                        font-size: 0.8em
+                    }
+                }
+                .switch{
+                    left: 82%;
+                }
+                .profile{
+                    width: 50%;
+                    min-width: 235px;
+                    h4{
+                        font-size: 1em;
+                    }
+                    p{
+                        font-size: 0.8em;
+                    }
+                }
+            }
+        }
+    
 }

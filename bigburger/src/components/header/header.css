@@ -5,7 +5,7 @@ header {
   justify-content: space-between;
 }
 header .title {
-  width: 35%;
+  width: 15%;
   height: 100%;
   min-height: 60px;
   border-radius: 35px 35px 0 0;
@@ -25,7 +25,6 @@ header .title .logo {
   cursor: pointer;
 }
 header nav {
-  width: 40%;
   height: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -49,8 +48,8 @@ header nav .admin__button {
   width: 40px;
   height: 60%;
   border-radius: 100%;
-  top: 15px;
-  transform: translateX(-350%);
+  top: 20%;
+  left: 5%;
   right: initial;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
@@ -72,11 +71,12 @@ header nav .connected p {
 }
 
 header nav .switch {
-  transform: translateX(350%);
+  left: 85%;
 }
 
 header nav .profile {
   width: 40%;
+  min-width: 300px;
   height: 100%;
   display: flex;
   justify-content: flex-end;
@@ -110,7 +110,7 @@ header nav .profile__intro p:hover {
   color: black;
 }
 header nav .profile__button {
-  width: 50%;
+  width: 30%;
   cursor: pointer;
 }
 header nav .profile__button i {
@@ -120,4 +120,31 @@ header nav .profile__button i {
 }
 header nav .profile__button:hover i {
   color: black;
+}
+
+@media (max-width: 900px) {
+  header nav {
+    width: 75%;
+    justify-content: flex-end;
+  }
+  header nav .admin {
+    max-width: 50%;
+    min-width: 250px;
+  }
+  header nav .admin p {
+    font-size: 0.8em;
+  }
+  header nav .switch {
+    left: 82%;
+  }
+  header nav .profile {
+    width: 50%;
+    min-width: 235px;
+  }
+  header nav .profile h4 {
+    font-size: 1em;
+  }
+  header nav .profile p {
+    font-size: 0.8em;
+  }
 }/*# sourceMappingURL=header.css.map */

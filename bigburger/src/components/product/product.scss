@@ -128,3 +128,25 @@
         display: none;
     }
 }
+
+
+@media (max-width :900px ) {
+    .product{
+       width: 100%;
+       border-radius:0px 0px 35px 35px;
+       &__cards{
+        grid-template-columns: repeat(auto-fill,150px);
+        grid-auto-rows: 200px;
+        grid-gap: 20px;
+        img{
+            height: 95%;
+        }
+        .product__content__title{
+            font-size: 1.3em;
+         }
+       }
+       .btn{
+        font-size: 0.7em;
+        }
+    }
+}

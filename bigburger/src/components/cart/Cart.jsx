@@ -30,7 +30,7 @@ function Cart({cart, setCart, getTotalPrice, total, setTotal}) {
                                     <h4>{basket.title}</h4>
                                 </div>
                             </div>
-                            <div className="selected__count">{basket.quantity}</div>
+                            <div className="selected__count">x{basket.quantity}</div>
                         </div>
                     </article>
                 ))}
