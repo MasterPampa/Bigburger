@@ -5,23 +5,26 @@ html{
 }
 body{
     margin: 0;
-    padding: 0;
     background: linear-gradient(45deg, #FFCF98 2.25%, #FFA752 2.25%, #FFA752 47.75%, #FFCF98 47.75%, #FFCF98 52.25%, #FFA752 52.25%, #FFA752 97.75%, #FFCF98 97.75%);
     background-size: 50px 50px;
     background-position: 50px 50px;
 }
-
+#root{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .container{
     width: 100%;
-    height: 90vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     &__content{
         width: 95%;
-        height: 90vh;
-        margin-top: 5vh;
-        margin-bottom: 5vh;
+        height: 85vh;
         background-color: white;
         border-radius: 35px;
         box-shadow: 3px 3px 10px rgba($color: #000000, $alpha: 0.7);
