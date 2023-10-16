@@ -12,7 +12,10 @@ body {
 }
 
 #root {
-  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -28,7 +31,7 @@ body {
 }
 .container__content {
   width: 95%;
-  height: 85vh;
+  height: 90%;
   background-color: white;
   border-radius: 35px;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
