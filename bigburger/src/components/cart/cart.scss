@@ -152,5 +152,14 @@
         h2{
             margin: 0;
         }
+    }.cart__cards__card:hover{
+        transform: translateX(0);
+    }
+    .remove{
+        position: absolute;
+        left: -3%;
+        top: 47%;
+        color: red;
+        opacity: 1;
     }
 }

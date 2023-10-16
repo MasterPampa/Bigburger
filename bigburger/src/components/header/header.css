@@ -124,13 +124,7 @@ header nav .profile__button:hover i {
 
 @media (max-width: 900px) {
   header {
-    min-height: 10%;
-  }
-  header .title {
-    width: 40%;
-  }
-  header .title .logo {
-    width: 100%;
+    min-height: 80px;
   }
   header nav {
     width: 75%;
@@ -158,6 +152,17 @@ header nav .profile__button:hover i {
   }
 }
 @media (max-width: 720px) {
+  header {
+    min-height: 10%;
+  }
+  header .title {
+    width: 20%;
+  }
+  header .title .logo {
+    width: 150%;
+    max-height: 120px;
+    max-width: 120px;
+  }
   header nav .admin {
     display: none;
   }

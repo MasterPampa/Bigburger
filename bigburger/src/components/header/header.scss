@@ -136,13 +136,7 @@ header{
 
 @media (max-width :900px ) {
         header{
-            min-height: 10%;
-            .title{
-                width: 40%;
-                .logo{
-                    width: 100%;
-                }
-            }
+            min-height: 80px;
             nav{
                 width: 75%;
                 justify-content: flex-end;
@@ -172,6 +166,15 @@ header{
 }
 @media (max-width :720px ) {
     header{
+        min-height: 10%;
+            .title{
+                width: 20%;
+                .logo{
+                    width: 150%;
+                    max-height: 120px;
+                    max-width: 120px;
+                }
+            }
         nav{
             .admin{
                 display: none;
