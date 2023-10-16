@@ -5,15 +5,14 @@ html {
 }
 
 body {
-  margin: 0;
+  margin-top: 10%;
+  height: 90vh;
   background: linear-gradient(45deg, #FFCF98 2.25%, #FFA752 2.25%, #FFA752 47.75%, #FFCF98 47.75%, #FFCF98 52.25%, #FFA752 52.25%, #FFA752 97.75%, #FFCF98 97.75%);
   background-size: 50px 50px;
   background-position: 50px 50px;
 }
 
 #root {
-  height: 100vh;
-  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
