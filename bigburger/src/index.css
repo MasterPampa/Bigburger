@@ -21,8 +21,8 @@ body {
 }
 .container__content {
   width: 95%;
-  height: 90vh;
-  margin-top: 10vh;
+  height: 85vh;
+  margin-top: 5vh;
   background-color: white;
   border-radius: 35px;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.7);
